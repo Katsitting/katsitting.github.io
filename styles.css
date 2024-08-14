@@ -38,7 +38,7 @@ header {
   justify-content: space-between;
 }
 
-.navbar .logo {
+.navbar .logo a {
   font-size: 25px;
   font-weight: 900;
   color: #2D69F6;
@@ -256,6 +256,10 @@ textarea {
   border-radius: 5px;
 }
 
+.catimg {
+  margin-bottom: 20px;
+}
+
 /* tablet breakpoint */
 @media (max-width: 404px) {
   body {
@@ -267,7 +271,7 @@ textarea {
     margin-left: 10px;
   }
 
-  .navbar .logo {
+  .navbar .logo a {
     font-size: 20px;
   }
 
@@ -290,7 +294,7 @@ textarea {
     margin-left: 20px;
   }
 
-  .navbar .logo {
+  .navbar .logo a {
     font-size: 16px;
   }
 
