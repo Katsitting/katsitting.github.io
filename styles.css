@@ -1,0 +1,299 @@
+* {
+  font-family: "Cabin", sans-serif;
+}
+
+body {
+  background-color: #FFF;
+  font-size: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+header {
+  position: relative;
+  padding: 0 20px;
+  border-bottom: 1px solid #DDD;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  font-size: 25px;
+  font-weight: 900;
+  color: #2D69F6;
+  font-family: "Montserrat Alternates", sans-serif;
+  margin-top: -5px;
+}
+
+.firstsection {
+  padding: 100px 0;
+}
+
+.firstsection2 {
+  padding: 100px 0;
+}
+
+.secondsection {
+  padding: 100px 0;
+  background-color: #FAFCFF;
+}
+
+.headermain {
+  text-align: center;
+  padding: 0 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.headerthanks {
+  text-align: center;
+  padding: 0 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: -40px;
+}
+.header {
+  text-align: center;
+  padding: 0 20px;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.firstsection .subtext {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.firstsection2 .subtext {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.secondsection .subtext {
+  padding: 0 0px;
+}
+
+.buttons {
+  text-align: center;
+  margin: 30px;
+}
+
+.buttons .primary {
+  padding: 8px 30px;
+  border-radius: 5px;
+  background-color: #2D69F6;
+  color: white;
+  border: none;
+}
+.back{
+  font-size: 18px;
+  text-decoration: underline !important;
+  margin-left: 0px;
+}
+.thanksimage {
+  width: 90%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+.buttons .primary:hover {
+  cursor: pointer;
+  background-color: #2054cd;
+}
+
+.navbar .nav ul {
+  display: flex;
+  margin-left: 25px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 0;
+  padding-top: 7px;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.accordion {
+  background-color: #FFF;
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  text-align: left;
+  outline: none;
+  margin: 5px 0;
+  text-decoration: underline;
+}
+
+.active,
+.accordion:hover {
+  color: #2054cd;
+}
+
+.panel {
+  padding: 20px 20px 20px 20px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  text-align: left;
+  background-color: #f6f6f6;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  margin-top: -12px;
+}
+
+.accordionwrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  width: 100%;
+  text-align: left;
+}
+
+.about {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  width: 90%;
+  text-align: left;
+  padding-top: 25px;
+}
+
+.accordionright {
+  float: right;
+}
+
+.accordioninner {
+  margin: 20px 0;
+}
+
+.forminput {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.forminner {
+  margin: 20px;
+}
+
+.label {
+  float: left;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.input {
+  max-width: 600px;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #bebebe;
+  font-size: 18px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 200px;
+}
+
+* {
+  box-sizing: border-box
+}
+
+.carousel {
+  width: 90%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+.slide {
+  border-radius: 5px;
+}
+
+/* tablet breakpoint */
+@media (max-width: 404px) {
+  body {
+    font-size: 18px;
+  }
+
+  a {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .navbar .logo {
+    font-size: 20px;
+  }
+
+  .input {
+    font-size: 15px;
+  }
+
+  .navbar .nav ul {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 369) {
+  body {
+    font-size: 14px;
+  }
+
+  a {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+
+  .navbar .logo {
+    font-size: 16px;
+  }
+
+  .input {
+    font-size: 10px;
+  }
+}
