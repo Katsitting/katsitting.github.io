@@ -97,6 +97,14 @@ header {
   padding: 0 0px;
 }
 
+.subtextcontact {
+  text-align: center;
+  padding: 0 20px;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px 0;
+}
+
 .buttons {
   text-align: center;
   margin: 30px;
